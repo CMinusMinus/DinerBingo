@@ -1,1 +1,1 @@
-# DinerBingo
+# DinerBingo (Dingo)
