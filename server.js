@@ -5,7 +5,7 @@ morgan = require('morgan'),
 serveStatic = require('serve-static'),
 path = require('path');
 
-var port = 80;
+var port = 8080;
 
 app.use(morgan('dev'));
 
