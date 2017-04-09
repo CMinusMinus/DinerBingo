@@ -19,6 +19,7 @@ class App extends React.Component {
     return(
       <div>
         <h1>DINGO</h1>
+        <h5>(diner bingo)</h5>
         <Board
           tiles={tiles}
          />
