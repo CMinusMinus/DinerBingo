@@ -38,3 +38,7 @@ jspm_packages
 
 # Other
 build/bundle.js
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
