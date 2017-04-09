@@ -1,123 +1,234 @@
-[
-  {
-    "title":"highchair"
+[  
+  {  
+    "title":"highchair",
+    "description": "somewhere there is a baby/small child in a highchair/booster seat"
   },
-  {
-    "title":"dropping silerware",
+  {  
+    "title":"dropped silerware",
+    "description": "someone drops silverware (not on purpose)"
+
   },
-  {
+  {  
     "title":"rolling/polishing",
+    "description": "there is a server rolling silverware into napkins"
+
   },
-  {
+  {  
     "title":"B-Day song",
+    "description": "waiters sing 'happy birthday' to a customer"
+
   },
-  {
-    "title":"Wet Area sign"
+  {  
+    "title":"Wet Area sign",
+    "description": "there is a 'Caution: wet floor' sign somewhere"
   },
-  {
+  {  
     "title":"Walkers/cane",
+    "description": "there is a customer that uses a walker or cane"
+
   },
-  {
+  {  
     "title":"asked ? When chewing",
+    "description": "the waiter asks you a question while you're in the middle of chewing food"
+
   },
-  {
+  {  
     "title":"Meet the Parents",
+    "description": "there is a couple in the restaurant that is meeting their significant other's parents"
+
   },
-  {
-    "title":"worker on cell phone",
+  {  
+    "title":"worker on cell",
+    "description": "someone who works at the restaurant is on their cell phone"
+
   },
-  {
+  {  
     "title":"Parties",
-    "SERVER":"Parties"
+    "description":"there is a large party (6 or more people in one group)"
   },
-  {
+  {  
     "title":"Tables rearranged",
-    "SERVER":"Tables rearranged"
+    "description":"someone rearranges tables to better accomodate"
+  },
+  {  
+    "title":"server flagged down",
+    "description": "someone gets a waiter's attention for something"
+  },
+  {  
+    "title":"snap fingers",
+    "description": "someone snaps their fingers to get their waiters attention"
+  },
+  {  
+    "title":"bumps into something",
+    "description": "someone bumps into something"
+  },
+  {  
+    "title":"Hear dishes fall",
+    "description": "someone somewhere dropped some dishes (not just silverware)"
+  },
+  {  
+    "title":"Sitting on same side of table",
+    "description": "people (probably a couple) sitting on same side of table/booth with no one on the other side"
+  },
+  {  
+    "title":"\"and water\"",
+    "description": "someone orders a soda or other drink, as well as a water"
+  },
+  {  
+    "title":"\"no ice\"",
+    "description":"someone asks for a drink without ice"
+  },
+  {  
+    "title":"knock over something",
+    "description":"someone accidentally knocks something over"
+  },
+  {  
+    "title":"manager yelling",
+    "description": "restaurant manager is yelling at someone"
+  },
+  {  
+    "title":"manager makes table rounds",
+    "description":"manager comes around to ask how everything is"
+  },
+  {  
+    "title":"change table",
+    "description":"someone changes to a different table than they were originally seated"
+  },
+  {  
+    "title":"wobbly table",
+    "description":"your table is wobbly"
+  },
+  {  
+    "title":"change radio/tv/temp",
+    "description":"someone changes the radio station/tv channel/room temperature"
+  },
+  {  
+    "title":"holiday music before thanksgiving",
+    "description":"the restaurant is playing christmas/holiday music before thanksgiving"
+  },
+  {  
+    "title":"crying baby",
+    "description":"there is a baby/small child that is crying"
+  },
+  {  
+    "title":"rowdy kids",
+    "description":"there are children being obnoxious/loud/disruptive"
+  },
+  {  
+    "title":"two-face server",
+    "description":"server presents themselves as nice and happy when talking to you, but when they turn around and walk away they are not"
+  },
+  {  
+    "title":"drops change",
+    "description":"someone (worker or customer) drops the change from a bill"
+  },
+  {  
+    "title":"sends food back",
+    "description":"a customer sends their food back to be remade"
+  },
+  {  
+    "title":"\"where's the bathroom\"",
+    "description":"someone asks where the bathroom is"
+  },
+  {  
+    "title":"table runs the server",
+    "description":"a table keeps asking for things causing the server to constantly go back and forth"
+  },
+  {  
+    "title":"find something in food",
+    "description":"something inedible/not food (like hair or a fingernail or something) is in your food"
+  },
+  {  
+    "title":"playing games at table",
+    "description":"customers playing a game at the table (not including you playing diner bingo)"
+  },
+  {  
+    "title":"\"check please\"",
+    "description":"someone asks for the check"
+  },
+  {  
+    "title":"asks for manager",
+    "description":"a customer asks to speak to the manager"
+  },
+  {  
+    "title":"awkward date",
+    "description":"there is an awkward date occurring in the restaurant (hopefully not to you)"
+  },
+  {  
+    "title":"date stood up",
+    "description":"some poor fool got stood up for a date"
+  },
+  {  
+    "title":"dirty table",
+    "description":"??????????????????????????????????"
+  },
+  {  
+    "title":"understaffed",
+    "description":"service is slow because of understaffedness/server apologizes due to understaffedness"
+  },
+  {  
+    "title":"to-go box/drink",
+    "SERVER":"to-go box/drink"
+  },
+  {  
+    "title":"missing stuff in the bathroom",
+    "description":"things missing in bathroom (TP, soap, etc)"
+  },
+  {  
+    "title":"out of something",
+    "description":"restaurant is out of something you/someone wanted"
   },
   {
-    "title":"server flagged down"
+    "title":"order stuff off-menu",
+    "description":"someone orders something that isn't on the menu"
   },
-  {
-    "title":"snap fingers"
+  {  
+    "title":"wrong drink",
+    "description":"someone gets a drink they didn't ask for"
   },
-  {
-    "title":"S bumps into something"
+  {  
+    "title":"arnold palmer",
+    "description":"someone orders an arnold palmer"
   },
-  {
-    "title":"Hear dishes fall"
+  {  
+    "title":"get a number",
+    "description":"you have to get someone's phone number (not someone at your table"
+     
   },
-  {
-    "title":"Sitting on same side of table"
+  {  
+    "title":"overly happy server",
+    "description":"your server is waaayyyyyy too happy"
   },
-  {
-    "title":"\"and water\""
+  {  
+    "title":"wrong food",
+    "description":"you get brought the wrong food"
   },
-  {
-    "title":"\"no ice\""
+  {  
+    "title":"walks by with food not yours",
+    "description":"a server walks by your table with food that isn't yours"
   },
-  {
-    "title":"knock over something"
+  {  
+    "title":"coke or pepsi products",
+    "description":"you ask for a coke product but they only have pepsi products, or vice versa"
   },
-  {
-    "title":"manager yelling"
+  {  
+    "title":"\"crispy\"",
+    "description":"someone asks for something to be made crispy (like bacon or toast)"
   },
-  {
-    "title":"manager makes table rounds"
+  {  
+    "title":"\"your food will be out soon\"",
+    "description":"your server tells you your food will arrive soon"
   },
-  {
-    "title":"change table"
+  {  
+    "title":"\"where's an outlet\"",
+    "description":"someone asks where an outlet is"
   },
-  {
-    "title":"wobbly table"
+  {  
+    "title":"kid's menu",
+    "description":"someone has a kid's menu"
   },
-  {
-    "title":"change radio/tv/temp"
-  },
-  {
-    "title":"holiday music before thanksgiving"
-  },
-  {
-    "title":"crying baby"
-  },
-  {
-    "title":"rowdy kids"
-  },
-  {
-    "title":"two-face server"
-  },
-  {
-    "title":"drops change"
-  },
-  {
-    "title":"sends food back"
-  },
-  {
-    "title":"w\"ere's the bathroom\""
-  },
-  {
-    "title":"table runs the server"
-  },
-  {
-    "title":"find something in food"
-  },
-  {
-    "title":"playing games at table"
-  },
-  {
-    "title":"\"check please\""
-  },
-  {
-    "title":"asks for manager"
-  },
-  {
-    "title":"awkward date"
-    "SERVER":"awkward date"
-  },
-  {
-    "title":"date stood up"
-  },
-  {
-    "title":"dirty table"
-  },
-  {
-    "title":"understaffed","SERVER":"understaffed"},{"":"","title":"to-go box/drink","SERVER":"to-go box/drink"},{"":"","title":"missing stuff in the bathroom","SERVER":"missing stuff in the bathroom"},{"":"","title":"out of something","SERVER":"out of something"},{"":"","title":"","SERVER":"order stuff not on menu"},{"":"","title":"","SERVER":"Jesus tip"},{"":"","title":"wrong drink","SERVER":"wrong drink"},{"":"","title":"arnold palmer","SERVER":"arnold palmer"},{"":"","title":"get a number","SERVER":"get a number"},{"":"","title":"overly happy server","SERVER":"overly happy customer"},{"":"","title":"wrong food","SERVER":"wrong food"},{"":"","title":"walks by with food not yours","SERVER":""},{"":"","title":"coke or pepsi products","SERVER":"coke or pepsi products"},{"":"","title":"\"crispy\"","SERVER":"\"crispy\""},{"":"","title":"\"your food will be out soon\"","SERVER":"\"your food will be out soon\""},{"":"","title":"\"where's an outlet\""},{"title":"children's menu"},{"title":""},{"":"","title":"\"table or booth\"","SERVER":""}]
+  {  
+    "title":"\"table or booth\"",
+    "description":"host asks if you want a table or booth"
+  }
+]
