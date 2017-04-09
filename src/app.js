@@ -47,8 +47,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <h1>DINGO</h1>
-        <h5>(diner bingo)</h5>
+        <h1 style={{fontSize:'170px'}}> D I N G O </h1>
         <Board
           isFetching={this.state.isFetching}
           tiles={this.state.tiles}
