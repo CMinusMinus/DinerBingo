@@ -47,7 +47,11 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <h1 style={{fontSize:'170px'}}> D I N G O </h1>
+        <h1 className='col-xs-2' style={{textAlign: 'center', width:'20%', fontSize:'170px'}}>D</h1>
+        <h1 className='col-xs-2' style={{textAlign: 'center', width:'20%', fontSize:'170px'}}>I</h1>
+        <h1 className='col-xs-2' style={{textAlign: 'center', width:'20%', fontSize:'170px'}}>N</h1>
+        <h1 className='col-xs-2' style={{textAlign: 'center', width:'20%', fontSize:'170px'}}>G</h1>
+        <h1 className='col-xs-2' style={{textAlign: 'center', width:'20%', fontSize:'170px'}}>O</h1>
         <Board
           isFetching={this.state.isFetching}
           tiles={this.state.tiles}
