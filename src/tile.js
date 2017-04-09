@@ -5,6 +5,7 @@ export default class Tile extends React.Component {
   render() {
     return(
       <div 
+        className= "col-xs-2"
         style={{
           borderStyle:'solid',
           borderWidth:'2px',
@@ -13,7 +14,8 @@ export default class Tile extends React.Component {
           textAlign:'center',
           height:'0',
           width:'20%',
-          paddingBottom:'20%'
+          paddingBottom:'20%',
+          display: 'block'
         }}
       >
         {this.props.title}
