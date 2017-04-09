@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom';
 import Tile from './tile';
 import winCheck from './win';
 
-
 export default class Board extends React.Component {
   constructor(props) {
     super(props);
@@ -23,16 +22,21 @@ export default class Board extends React.Component {
     }
   }
 
-  handleSelect() {
+  handleSelect(board) {
     const tileIndex = this.props.tiles.findIndex(item => (
       item.title === this.state.tileSelected.title
     ));
     const tilesWon = [...this.state.indexesWon, tileIndex];
+    
+    if (winCheck(board, {x: (tileIndex % 5), y: (Math.floor(tileIndex / 5)) })) {
+      console.log("YOU WIN")
+    }
 
     this.setState({
       indexesWon: tilesWon,
       tileSelected: null
     });
+    
     console.log(this.state.indexesWon)
   }
 
@@ -74,7 +78,7 @@ export default class Board extends React.Component {
             fontSize: "3em"
           }}
           className=" text-center btn btn-primary btn-lg btn-success"
-          onClick={() => this.handleSelect()}
+          onClick={() => this.handleSelect(board)}
         >
           Select
         </button>
