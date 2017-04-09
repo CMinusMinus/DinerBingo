@@ -13,11 +13,12 @@ export default class Tile extends React.Component {
           borderWidth:'2px',
           borderColor:'black',
           textAlign:'center',
-          
           height:'0',
+          marginLeft: this.props.expanded && '5%',
           width: this.props.expanded ? '90%' : '20%',
           paddingBottom: this.props.expanded ? '40%' : '20%',
-          display: 'block'
+          display: 'block',
+          backgroundColor: this.props.isWon ? '#DDD' : 'white'
         }}
         onClick={() => this.props.handleClick({title, description})}
       >

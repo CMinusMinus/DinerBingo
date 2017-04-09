@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Tile from './tile';
+import winCheck from './win';
 
 
 export default class Board extends React.Component {
@@ -11,16 +12,19 @@ export default class Board extends React.Component {
       indexesWon: [12]
     };
     this.handleClick = this.handleClick.bind(this);
+    this.handleSelect = this.handleSelect.bind(this);
   }
 
   handleClick(tile) {
-    this.setState({
-      tileSelected: tile,
-    })
+    if(!tileSelected) {
+      this.setState({
+        tileSelected: tile,
+      })
+    }
   }
 
   handleSelect() {
-    const tileIndex = this.state.tiles.findIndex(item => (
+    const tileIndex = this.props.tiles.findIndex(item => (
       item.title === this.state.tileSelected.title
     ));
     const tilesWon = [...this.state.indexesWon, tileIndex];
@@ -40,23 +44,41 @@ export default class Board extends React.Component {
       for (let i = 0; i < 5; i++) {
         for (let j = 0; j < 5; j++) {
           board[i][j] = tiles[count];
-          count++;
-
           let check = this.state.indexesWon.find((item) => (count === item));
           if (check) {
             board[i][j].isWon = true;
             console.log(check)
           }
-          
+          count++;
         }
       }
     }
+
     return this.state.tileSelected ? (
       <div>
         <Tile 
           title={this.state.tileSelected.title}
           expanded
-          description={this.state.tileSelected.description} />
+          description={this.state.tileSelected.description} 
+          handleClick={this.handleClick}
+        />
+        <div style={{
+        width: '100%',
+        height: '20%',
+      }}>
+        <button 
+          style={{
+            height: "100px",
+            width: "80%",
+            marginLeft: "10%",
+            fontSize: "3em"
+          }}
+          className=" text-center btn btn-primary btn-lg btn-success"
+          onClick={() => this.handleSelect()}
+        >
+          Select
+        </button>
+      </div>
       </div>
       ) : (
       <div>
