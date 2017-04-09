@@ -14,8 +14,6 @@ for(var i=0; i<5; i++){
   tiles.push(row);
 }
 
-
-
 class App extends React.Component {
   constructor(props) {
     super(props);
