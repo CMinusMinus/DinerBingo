@@ -47,12 +47,15 @@ class App extends React.Component {
     this.fetchBoard();
   }
   render() {
-    return(<div>
-      <Board
-        isFetching={this.state.isFetching}
-        tiles={this.state.tiles}
-       />
-    </div>);
+    return (
+      <div>
+        <h1>DINGO</h1>
+        <Board
+          isFetching={this.state.isFetching}
+          tiles={this.state.tiles}
+         />
+      </div>
+    );
   }
 }
 
