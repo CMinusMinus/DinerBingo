@@ -16,7 +16,7 @@ export default class Board extends React.Component {
   }
 
   handleClick(tile) {
-    if(!tileSelected) {
+    if(!this.state.tileSelected) {
       this.setState({
         tileSelected: tile,
       })
@@ -45,7 +45,7 @@ export default class Board extends React.Component {
         for (let j = 0; j < 5; j++) {
           board[i][j] = tiles[count];
           let check = this.state.indexesWon.find((item) => (count === item));
-          if (check) {
+          if (check !== undefined) {
             board[i][j].isWon = true;
             console.log(check)
           }
