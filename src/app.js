@@ -1,10 +1,26 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import axios from 'axios';
 
 class App extends React.Component {
+  componentWillMount() {
+    this.setState({
+      isFetching: true
+    })
+    axios.get('/data')
+    .then(function(response) {
+      this.setState({
+        tiles: response,
+        isFetching: false
+      });
+    })
+    .catch(function(err) {
+      console.error(err);
+    });
+  }
   render() {
     return(
-      <div>{this.props.message}</div>
+      <div>{this.props.isFetching}</div>
     );
   }
 }
