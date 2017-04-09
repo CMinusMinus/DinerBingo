@@ -18,8 +18,8 @@ export default class Board extends React.Component {
     }
     return(
       <div>{
-        this.props.isFetching ? <div>Fetching</div> : (board.map(function(row){
-          return (<div className="row"> {row.map(function(item, counter){
+        this.props.isFetching ? <div>Fetching</div> : (board.map(function(row, counter) {
+          return (<div key={counter} className="row"> {row.map(function(item, counter){
             return <Tile
               key={counter}
               title={item.title}

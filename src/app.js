@@ -48,16 +48,10 @@ class App extends React.Component {
   }
   render() {
     return(<div>
-      <div>{`${this.state.isFetching}`}</div>
-      <div>
-        {this.state.isFetching || this.state.tiles.map(item => 
-          <div>{item.title}</div>
-        )}
-        <Board
-          isFetching={this.state.isFetching}
-          tiles={this.state.tiles}
-         />
-      </div>
+      <Board
+        isFetching={this.state.isFetching}
+        tiles={this.state.tiles}
+       />
     </div>);
   }
 }

@@ -4,7 +4,7 @@ methodOverride = require('method-override'),
 morgan = require('morgan'),
 serveStatic = require('serve-static'),
 path = require('path'),
-theFakeData = require('./sampleData'),
+theData = require('./output.json'),
 randomize = require('./utils/randomize');
 
 var port = 8080;
@@ -19,7 +19,7 @@ app.get('/', function(req,res) {
 });
 
 app.get('/data', function(req,res) {
-  res.send(randomize(theFakeData, 25));
+  res.send(randomize(theData, 25));
 });
 
 app.listen(port);
